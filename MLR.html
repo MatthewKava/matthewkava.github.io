@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Home</title>
+		<title>Multiple Linear Regression</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -15,17 +15,7 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Matthew<br />
-						Kavanagh</h1>
-						<p>Data Analyst - Data Scientist</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
@@ -47,56 +37,26 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
+						<!-- Post -->
+							<section class="post">
 								<header class="major">
 									<span class="date">15/05/2023</span>
-									<h2><a href="MLR.html">Multiple<br />
-									Linear Regression</a></h2>
+									<h1>Multiple<br />
+									Linear Regression</h1>
 									<p>In Python</p>
 								</header>
-								<a href="MLR.html" class="image main"><img src="images/Cars.jpg" alt="Cars" /></a>
-								<ul class="actions special">
-									<li><a href="MLR.html" class="button large">Full Project</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">20/05/2023</span>
-										<h2><a href="https://github.com/MatthewKava/Data">Random Forest<br />
-										Regression</a></h2>
-                                        <centre>In Python</centre>
-									</header>
-									<a href="https://github.com/MatthewKava/Data" class="image fit"><img src="images/House.jpg" alt="House" /></a>
-									<ul class="actions special">
-										<li><a href="https://github.com/MatthewKava/Data" class="button">Full Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">27/05/2023</span>
-										<h2><a href="https://github.com/MatthewKava/Data">Principal<br />
-										Component Analysis</a></h2>
-                                        <centre>In Python</centre>
-									</header>
-									<a href="https://github.com/MatthewKava/Data" class="image fit"><img src="images/Birds.jpg" alt="Birds" /></a>
-									<ul class="actions special">
-										<li><a href="https://github.com/MatthewKava/Data" class="button">Full Project</a></li>
-									</ul>
-								</article>
-								
-							</section>
-
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-								</div>
-							</footer>
+								<div class="image main"><img src="images/Cars.jpg" alt="" /></div>
+								<p>
+                                The price of a car, as set by the manufacturer, is based on the cost of production but can
+                                also be influenced by the desirability of features and quality of performance. Depending on
+                                the market the car is sold in, the manufacturer may charge more for a car model if it has
+                                multiple features which are in demand, thus increasing profits. Therefore different features
+                                will have different influences on the price of the car.</p></section>
+                                <div class="image fit"><img src="images/GitMLR.PNG" alt="" /></div>
+                                <p>Backwards stepwise regression was implimented until all variables had a p value of less than 0.05. These are the features which most effect the price of the car. Using a train and test split on the data, the model was used to predict a price of a car based on these features and the results can be compared to the actual value. The results can be seen below. Dots that fall on the diagonal line indicate a perfect prediction by the model. </p>
+                                <div class="image fit"><img src="images/MLR.PNG" alt="" /></div>
+                                <p>The R-squared score of these predictions is 0.91.</p>
+                        <li><a href="https://github.com/MatthewKava/Data/blob/main/CarsFinal.ipynb" class="button">project code</a></li>
 
 					</div>
 
